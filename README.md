@@ -183,16 +183,11 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 <br>•	Integrity: Protecting against any alterations; ensuring that it is complete and authentic. Encryption and decryption would be used to protect the integrity of the data. 
 <br>•	Availability: Ensuring accessibility of data when needed; guarding against any disruption.
 
-**Project Title:** City of Vancouver Health Agency Water Management System Analysis: An Exploratory Data Analysis 
+**Project Title:** Data Protection for City of Vancouver Health Agency Water Management System Analysis Data Analytics Platform
 
-**Objective:** To compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. 
+**Objective:** To protect the Agency's Data Analytics Platform by ensuring data confidentiality, integrity and availability.
 
-**Data Set Title:** Issued operating permits – Water Systems 
+**Data Protection Framework/Architecture:** 
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/f9f5c7d0-19ac-4da1-bd46-ccf7f2facd34" />
 
-**Source:** City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
-<br> **Geo Local Area:** West End, Fairview 
-<br> **Current system status:** Active 
-<br> **Record Count:** 189 
-<br> **Last Processing Date:** November 19, 2024, 9:52 AM 
-<br> **File Formats:** .XLSX (Excel) 
-<br> **Data Team:** Development, Buildings, and Licensing - Building Policy
+
