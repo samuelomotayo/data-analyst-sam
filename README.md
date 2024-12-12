@@ -268,16 +268,19 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
    - Create data entry guidelines to promote consistency and accuracy.
 ![image](https://github.com/user-attachments/assets/60baadb9-38bb-467e-9798-84307d93f619)
 
-6-	Monitoring and Reporting:
-o	Implement monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
-o	Schedule regular reports to review data quality trends and performance against established KPIs.
+6. Monitoring and Reporting:
+   - Implement monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
+   - Schedule regular reports to review data quality trends and performance against established KPIs.
+   ![image](https://github.com/user-attachments/assets/b25e2506-280e-4408-bf9a-c5d1780c6ab6)
 
 
-**6. Tools and Technologies:**
+**Tools and Technologies:**
 <br> - AWS Simple Storage Service (S3): Used to store the ingested data.
 <br> - AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
 <br> - AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
 <br> - Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+<br> - AWS CloudWatch: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+<br> - AWS CloudTrail: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
 
 In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
 
