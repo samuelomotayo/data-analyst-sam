@@ -28,9 +28,14 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 <br>•	Legionella: A type of water infection
 
 **Methodology:** 
+
 <br>1.	Data Collection and Preparation: 
     <br>-	Load the dataset using Excel as the data analysis tool
     <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
+
+This includes understanding the following using AWS: 
+    <br>•	Data structure: The number of columns, column names, column order and data type 
+    <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
 <img width="766" alt="image" src="https://github.com/user-attachments/assets/d1a9ba1b-afc8-4e62-8e75-f1bc1ab0e8d0" />
 
 
