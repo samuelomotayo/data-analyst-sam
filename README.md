@@ -242,6 +242,9 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 <br> •	Data Validation: Implementing validation rules and checks to ensure data integrity. 
 <br> •	Monitoring and Reporting: Establishing ongoing monitoring processes and dashboards to track data quality metrics. 
 
+**DAP System Architecture** <br>
+![image](https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1)
+
 **METHODOLOGY**
 1. Current State Assessment:
    - Conduct a detailed analysis of current data sources and workflows and itemize the existing/potential data quality challenges.
@@ -249,22 +252,20 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 2. Data Profiling:
    - Utilize data profiling tools (AWS Glue DataBrew) to assess the quality of identified datasets, focusing on completeness, uniqueness, validity, consistency, and accuracy.
    - Record all identified gaps and issues with the data set with the required immediate attention.
-     
-4. Establish Data Quality Metrics:
-5. Data Cleansing Processes:
-6. Validation Rules and Procedures:
-7. Monitoring and Reporting:
+     ![image](https://github.com/user-attachments/assets/cb8ea866-ed93-4837-9462-8d36dec6d2fb)
+3. Establish Data Quality Metrics:
+   - Define clear data quality metrics and key performance indicators (KPIs) such as accepted percentage of data completeness, uniqueness, data freshness (recency) and others.
+    ![image](https://github.com/user-attachments/assets/f07c155c-624e-476d-b90f-87412edf150f)
+4. Data Cleansing Processes:
+   - Develop and implement procedures for data cleansing, which may include:
+   - Sensitive data handling using AWG Glue Detect Sensitive Data 
+   - Data Completeness and uniqueness
+   - Standardizing data formats and values.
+    ![image](https://github.com/user-attachments/assets/a9262204-c1da-478a-af6a-bd09819b2d19)
 
-2-	Data Profiling:
-o	Utilize data profiling tools to assess the quality of identified datasets, focusing on completeness, uniqueness, validity, consistency, and accuracy.
-o	Document findings to highlight areas requiring immediate attention.
-3-	Establish Data Quality Metrics:
-o	Define clear data quality metrics and key performance indicators (KPIs) to evaluate and track data quality over time, such as error rates, duplicate records, and compliance with data standards.
-4-	Data Cleansing Processes:
-o	Develop and implement procedures for data cleansing, which may include:
-	Removing duplicates and correcting errors.
-	Standardizing data formats and values.
-	Filling in missing values using appropriate imputation techniques.
+5. Validation Rules and Procedures:
+6. Monitoring and Reporting:
+
 5-	Validation Rules and Procedures:
 o	Set up validation rules for new data entries to reduce the risk of poor-quality data being introduced into the system.
 o	Create data entry guidelines to promote consistency and accuracy.
@@ -272,8 +273,6 @@ o	Create data entry guidelines to promote consistency and accuracy.
 o	Implement monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
 o	Schedule regular reports to review data quality trends and performance against established KPIs.
 
-**DAP System Architecture** <br>
-<img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
 
 **METHODOLOGY:** 
 <br> **1. Data Collection, Ingestion and Preparation:**
