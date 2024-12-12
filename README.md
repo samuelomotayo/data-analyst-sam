@@ -311,7 +311,7 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 1. Create thresholds
 ![image](https://github.com/user-attachments/assets/f4bd02bf-2649-448f-8e5f-809f852ecbc2)
 
-2. Initiate alarms for resources using CloudWatch
+2. Initiate alarms for resources using CloudWatch to monitor applications, infrastructure, network, and services
 ![image](https://github.com/user-attachments/assets/58290467-8b57-4dc0-811b-0b5b183ce18a)
 
 3. Initiate alarms using Users CloudTrails to gain visibility into user activities (and APIs) by recording actions taken on your account.
