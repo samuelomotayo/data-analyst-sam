@@ -288,3 +288,20 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 3. A monitoring dashboard that visualizes data quality metrics and real-time access.
 
 Data Quality Control and Governance empowers the City of Vancouver's Health Agency to enhance its data integrity and reliability, resulting in improved decision-making, operational efficiency, and compliance with regulatory requirements.
+
+# [Project 5: Data Observability]
+
+**Project Overview/Description:** Data observability is the practice of monitoring, managing and maintaining data to ensure its quality, availability and reliability across various procedures, processes, systems and pipelines within an organization (IBM, 2024). Data observability enables optimal performance by continuously measuring based on set metrics, comparing the outcome of the metrics and taking appropriate action. 
+This section showcases how various metrics would be applied to the City of Vancouver Health Agency water management mechanized system Data Analytical Platform to ensure optimal performance using capabilities such as alarms and notifications, in addition to a graphical dashboard to visualize the trends across the different metrics and resources. 
+![image](https://github.com/user-attachments/assets/6004bc08-64ec-4661-bb89-72a0a0349066)
+
+<br>Data governance provides the following benefits: 
+<br>•	Improves data quality 
+<br>•	Increases operational efficiency 
+<br>•	Supports regulatory compliance
+
+**Project Title:** Data Control and Governance for the City of Vancouver Health Agency Data Analytics Platform
+
+**Objective:** The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) and Data Governance framework at the City of Vancouver Health Agency. This framework will ensure the organization's data's accuracy, completeness, consistency, and reliability, enhancing decision-making processes and overall business performance.
+
+**Project Background:** The City of Vancouver Health Agency has recently launched a new Data Analytics Platform (DAP) but is concerned about issues related to data quality, including inaccuracies, duplicate records, and inconsistent formats. In addition, it is also concerned about how sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users to avoid mishandling of data, misguided business strategies, inefficiencies, and regulatory compliance risks. This project aims to implement robust data quality control measures to mitigate these issues through the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle.
