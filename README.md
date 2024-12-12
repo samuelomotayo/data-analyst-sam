@@ -194,11 +194,15 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 1. Confidentiality
    - Initiate Symmetric Protection Key
    - Establish Permission (Admin & Users)
+![image](https://github.com/user-attachments/assets/ceaf5c38-7b79-4062-9020-450cb0e2c686)
      
 2. Integrity:
    - Apply Encryption & Decryption to all resources
+     ![image](https://github.com/user-attachments/assets/c54343d1-16e2-4e5d-bd28-299e6237ff9e)
+
    - Initiate S3 Bucket Versioning
    - Initiate S3 Replication Rule 
+
    
 3. Accessibility
    - Initiate S3 Bucket Versioning for all zones 
