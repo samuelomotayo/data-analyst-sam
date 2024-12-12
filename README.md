@@ -292,13 +292,20 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 # [Project 5: Data Observability]
 
 **Project Overview/Description:** Data observability is the practice of monitoring, managing and maintaining data to ensure its quality, availability and reliability across various procedures, processes, systems and pipelines within an organization (IBM, 2024). Data observability enables optimal performance by continuously measuring based on set metrics, comparing the outcome of the metrics and taking appropriate action. 
-This section showcases how various metrics would be applied to the City of Vancouver Health Agency water management mechanized system Data Analytical Platform to ensure optimal performance using capabilities such as alarms and notifications and a graphical dashboard to visualize the trends across the different metrics and resources. 
 
-**Project Title:** Data Control and Governance for the City of Vancouver Health Agency Data Analytics Platform
+**Project Title:** Data Observability for the City of Vancouver Health Agency Data Analytics Platform
 
-**Objective:** The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) and Data Governance framework at the City of Vancouver Health Agency. This framework will ensure the organization's data's accuracy, completeness, consistency, and reliability, enhancing decision-making processes and overall business performance.
+**Objective:** This section showcases how various metrics would be applied to the City of Vancouver Health Agency water management mechanized system Data Analytical Platform to ensure optimal performance using capabilities such as alarms and notifications and a graphical dashboard to visualize the trends across the different metrics and resources. 
 
 **Project Background:** The City of Vancouver Health Agency has recently launched a new Data Analytics Platform (DAP) but is concerned about issues related to data quality, including inaccuracies, duplicate records, and inconsistent formats. In addition, it is also concerned about how sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users to avoid mishandling of data, misguided business strategies, inefficiencies, and regulatory compliance risks. This project aims to implement robust data quality control measures to mitigate these issues through the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle.
+
+**Project Scope:** The project will focus on the following key areas: 
+<br> •	Specify thresholds for resources 
+<br> •	Create trails to monitor users and resources
+<br> •	Monitoring and Reporting
+
+**DAP System Architecture** <br>
+![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
 
 **Tools and Technologies**
 1. AWS CloudWatch: An AWS service that helps users track, monitor, manage and control AWS resources and applications.
