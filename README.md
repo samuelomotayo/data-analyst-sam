@@ -236,7 +236,39 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 
 **Project Background:** The City of Vancouver Health Agency has recently launched a new Data Analytics Platform (DAP) but is concerned about issues related to data quality, including inaccuracies, duplicate records, and inconsistent formats. In addition, it is also concerned about how sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users to avoid mishandling of data, misguided business strategies, inefficiencies, and regulatory compliance risks. This project aims to implement robust data quality control measures to mitigate these issues through the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle.
 
-**Data Set Title:** Issued operating permits – Water Systems 
+**Project Scope:** The project will focus on the following key areas: 
+<br> •	Data Profiling: Analyzing existing datasets to assess quality levels. 
+<br> •	Data Cleansing: Developing processes to correct inaccuracies and eliminate duplicates. 
+<br> •	Data Validation: Implementing validation rules and checks to ensure data integrity. 
+<br> •	Monitoring and Reporting: Establishing ongoing monitoring processes and dashboards to track data quality metrics. 
+
+**METHODOLOGY**
+1. Current State Assessment:
+2. Data Profiling:
+3. Establish Data Quality Metrics:
+4. Data Cleansing Processes:
+5. Validation Rules and Procedures:
+6. Monitoring and Reporting:
+
+o	Conduct a thorough analysis of current data sources, workflows, and existing data quality challenges.
+o	Identify the key datasets that significantly impact business operations and decision-making.
+2-	Data Profiling:
+o	Utilize data profiling tools to assess the quality of identified datasets, focusing on completeness, uniqueness, validity, consistency, and accuracy.
+o	Document findings to highlight areas requiring immediate attention.
+3-	Establish Data Quality Metrics:
+o	Define clear data quality metrics and key performance indicators (KPIs) to evaluate and track data quality over time, such as error rates, duplicate records, and compliance with data standards.
+4-	Data Cleansing Processes:
+o	Develop and implement procedures for data cleansing, which may include:
+	Removing duplicates and correcting errors.
+	Standardizing data formats and values.
+	Filling in missing values using appropriate imputation techniques.
+5-	Validation Rules and Procedures:
+o	Set up validation rules for new data entries to reduce the risk of poor-quality data being introduced into the system.
+o	Create data entry guidelines to promote consistency and accuracy.
+6-	Monitoring and Reporting:
+o	Implement monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
+o	Schedule regular reports to review data quality trends and performance against established KPIs.
+
 
 **Source:** City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
 <br> **Geo Local Area:** West End, Fairview 
