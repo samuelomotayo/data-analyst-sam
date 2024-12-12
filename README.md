@@ -201,6 +201,8 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
      ![image](https://github.com/user-attachments/assets/c54343d1-16e2-4e5d-bd28-299e6237ff9e)
 
    - Initiate S3 Bucket Versioning
+     ![image](https://github.com/user-attachments/assets/041701ab-2a56-4ac3-8d52-5f91814cf183)
+
    - Initiate S3 Replication Rule
      ![image](https://github.com/user-attachments/assets/34dcf0a2-957c-403c-a19e-d3b3280baddb)
 
