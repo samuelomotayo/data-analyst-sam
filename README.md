@@ -15,7 +15,7 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 <br> **Last Processing Date:** November 19, 2024, 9:52 AM 
 <br> **File Formats:** CSV and XLSX (Excel) 
 
-The DAP architecture
+The DAP architecture<br>
 <img width="546" alt="image" src="https://github.com/user-attachments/assets/e03a5606-6f3f-4031-be5d-0f63ca888dea" />
 
 
