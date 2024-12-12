@@ -311,8 +311,15 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 1. Create thresholds
 ![image](https://github.com/user-attachments/assets/f4bd02bf-2649-448f-8e5f-809f852ecbc2)
 
-3. Initiate alarms for different resources
-4. Create Monitoring and Reporting system
+2. Initiate alarms for resources using CloudWatch
+![image](https://github.com/user-attachments/assets/58290467-8b57-4dc0-811b-0b5b183ce18a)
+
+3. Initiate alarms using Users CloudTrails to gain visibility into user activities (and APIs) by recording actions taken on your account.
+![image](https://github.com/user-attachments/assets/58290467-8b57-4dc0-811b-0b5b183ce18a)
+
+4. Create a Monitoring and Reporting system
+![image](https://github.com/user-attachments/assets/ca497c70-0a49-4648-9962-cab49938a485)
+
 
 **Tools and Technologies**
 1. AWS CloudWatch: An AWS service that helps users track, monitor, manage and control AWS resources and applications.
