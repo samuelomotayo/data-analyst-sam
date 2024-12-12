@@ -124,6 +124,7 @@ This includes understanding the following using AWS:
 
 **2. Explorative Statistics:**
 <br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
+<br>
 Step 1: Calculate the use of each Mechanized System distribution for each location:
 <br>How do we calculate the use of each Mechanized System distribution:
 <br>•	Building Water = (# of Building Water systems / Total # of active mechanized systems) * 100
