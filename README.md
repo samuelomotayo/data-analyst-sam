@@ -302,10 +302,17 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 **Project Scope:** The project will focus on the following key areas: 
 <br> •	Specify thresholds for resources 
 <br> •	Create trails to monitor users and resources
-<br> •	Monitoring and Reporting
+<br> •	Deliver a monitoring and reporting system
 
 **DAP System Architecture** <br>
 ![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
+
+**METHODOLOGY**
+1. Create thresholds
+   ![image](https://github.com/user-attachments/assets/f4bd02bf-2649-448f-8e5f-809f852ecbc2)
+
+3. Initiate alarms for different resources
+4. Create Monitoring and Reporting system
 
 **Tools and Technologies**
 1. AWS CloudWatch: An AWS service that helps users track, monitor, manage and control AWS resources and applications.
