@@ -2,7 +2,7 @@
 
 This repository describes the  end-to-end portfolio of the Data Analytics Platform I designed for the City of Vancouver Health Agency.
 
-# [Project: Descriptive Analysis]
+# [Project 1: Descriptive Analysis]
 
 Project Title: Data Analytic Platform (DAP) Design and Implementation for City of Vancouver Issued Operating Permits – Water Systems.
 
@@ -222,7 +222,7 @@ This exercise would consider the following to protect CHA’s data:
 Unprotected data could create vulnerabilities for an organization whereby unauthorized actors could gain access and tamper with the integrity (information) or even destroy these data, resulting in business disruption. AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
 
 
-# [Project 5: Data Quality Control (Data Governance)]
+# [Project 4: Data Quality Control (Data Governance)]
 
 **Project Overview/Description:** Data governance is the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle - this includes how the data is managed. For example, sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users. 
 <br>Data governance provides the following benefits: 
@@ -244,14 +244,14 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 
 **METHODOLOGY**
 1. Current State Assessment:
+   - Conduct a detailed analysis of current data sources and workflows and itemize the existing/potential data quality challenges.
+   - Identify the key datasets that significantly impact business operations and decision-making, such as, operating permits, geolocations and systems maintenance.
 2. Data Profiling:
 3. Establish Data Quality Metrics:
-4. Data Cleansing Processes:
-5. Validation Rules and Procedures:
-6. Monitoring and Reporting:
+5. Data Cleansing Processes:
+6. Validation Rules and Procedures:
+7. Monitoring and Reporting:
 
-o	Conduct a thorough analysis of current data sources, workflows, and existing data quality challenges.
-o	Identify the key datasets that significantly impact business operations and decision-making.
 2-	Data Profiling:
 o	Utilize data profiling tools to assess the quality of identified datasets, focusing on completeness, uniqueness, validity, consistency, and accuracy.
 o	Document findings to highlight areas requiring immediate attention.
