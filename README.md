@@ -283,8 +283,8 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 6. Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
 
 **Deliverables:** 
-1. A comprehensive Data Quality Control plan detailing processes, metrics, and responsibilities.
-2. Documentation of data quality metrics and KPIs being tracked.
-3. Cleaned and validated datasets ready for analysis and reporting.
-4. Training resources, including materials and workshops, designed to educate staff on data quality practices.
-5. A monitoring dashboard that visualizes data quality metrics in real-time.
+1. Documentation of data quality metrics and KPIs being tracked.
+2. A cleaned, curated and validated dataset ready for analysis and reporting.
+3. A monitoring dashboard that visualizes data quality metrics and real-time access.
+
+Data Quality Control and Governance empowers the City of Vancouver's Health Agency to enhance its data integrity and reliability, resulting in improved decision-making, operational efficiency, and compliance with regulatory requirements.
