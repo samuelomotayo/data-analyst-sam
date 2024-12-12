@@ -222,7 +222,7 @@ This exercise would consider the following to protect CHA’s data:
 Unprotected data could create vulnerabilities for an organization whereby unauthorized actors could gain access and tamper with the integrity (information) or even destroy these data, resulting in business disruption. AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
 
 
-# [Project 4: Data Quality Control (Data Governance)]
+# [Project 4: Data Quality Control and Governance]
 
 **Project Overview/Description:** Data governance is the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle - this includes how the data is managed. For example, sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users. 
 <br>Data governance provides the following benefits: 
@@ -278,9 +278,9 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 1. AWS Simple Storage Service (S3): Used to store the ingested data.
 2. AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization.
 3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
-4. Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
-5. AWS CloudWatch: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
-6. AWS CloudTrail: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+4. AWS CloudWatch: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+5. AWS CloudTrail: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+6. Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
 
 In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
 
