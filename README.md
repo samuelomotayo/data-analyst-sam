@@ -98,17 +98,18 @@ The City of Vancouver should do the following:
 <br> **File Formats:** .XLSX (Excel) 
 <br> **Data Team:** Development, Buildings, and Licensing - Building Policy
 
-Data Set: Fairview and Westend have the same similar data structure as indicated below:
-<br>•	Operating Permit Number (ID): Unique identifier for each permit issued for each operator
-<br>•	Address: Address where each mechanized system is situated
-<br>•	Mechanized System Status: The status of each system if active or not
-<br>•	Permit Renewal Date: When each operating permit is due for renewal
-<br>•	Voluntary Participant: Indicator for each applicant if they willingly reported their system or not
-<br>•	Marker Colour: Total price of the transaction 
-<br>•	Turbidity: The nature of the mechanized system
-<br>•	Legionella: A type of water infection
+**Data Set:** 
+<br>Fairview and Westend have the same similar data structure as indicated below:
+<br>•	**Operating Permit Number (ID):** Unique identifier for each permit issued for each operator
+<br>•	**Address:** Address where each mechanized system is situated
+<br>•	**Mechanized System Status:** The status of each system if active or not
+<br>•	**Permit Renewal Date:** When each operating permit is due for renewal
+<br>•	**Voluntary Participant:** Indicator for each applicant if they willingly reported their system or not
+<br>•	**Marker Colour:** Total price of the transaction 
+<br>•	**Turbidity:** The nature of the mechanized system
+<br>•	**Legionella:** A type of water infection
 
-DAP System Architecture<br>
+**DAP System Architecture** <br>
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
 
 **Methodology:** 
