@@ -30,7 +30,6 @@ The DAP architecture<br>
 <br>•	Legionella: A type of water infection
 
 **Methodology:** 
-
 <br>1.	Data Collection, Ingestion and Preparation: 
     <br>-	Load the dataset using Excel as the data analysis tool
     <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
