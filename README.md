@@ -15,3 +15,7 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 <br> **Last Processing Date:** November 19, 2024, 9:52 AM 
 <br> **File Formats:** CSV and XLSX (Excel) 
 
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/0eeeb856-06d5-4793-b7d6-2f2c94c1a4fd" />
+
+**Dataset:** The dataset includes transactional data from XYZ Retail over the past year, containing the following key features: 
+<br>•	Transaction ID: Unique identifier for each purchase •	Customer ID: Identification number for each customer •	Purchase Date: Date and time of the transaction •	Product Category: Category of the purchased product (e.g., electronics, clothing, groceries) •	Quantity: Number of items purchased •	Price: Total price of the transaction •	Payment Method: Method used for payment (e.g., credit card, cash, digital payment) •	Location: Store location where the purchase was made
