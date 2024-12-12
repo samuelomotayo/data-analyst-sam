@@ -144,6 +144,8 @@ Step 1: Calculate the use of each Mechanized System distribution for each locati
 <br>**Insight/Deduction 1:** Mechanical System usage in Fairview and Westend 
 <br>
 <img width="301" alt="image" src="https://github.com/user-attachments/assets/9204fde1-ba18-4abf-80b0-dd548b60cfb6" />
+<br>
+![image](https://github.com/user-attachments/assets/b0407223-7157-40ff-903f-7e646b92b160)
 
 <br>1.	Rainwater Harvesting/Alternative Water System: 
 <br>        -	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
