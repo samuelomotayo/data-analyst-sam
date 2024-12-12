@@ -170,7 +170,7 @@ The City of Vancouver should do the following:
 **6. Tools and Technologies:**
 <br> - AWS Simple Storage Service (S3): Used to store the ingested data.
 <br> - AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
-<b3> - AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+<br> - AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
 <br> - Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
 
 In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
