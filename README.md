@@ -28,8 +28,16 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 <br>•	Legionella: A type of water infection
 
 **Methodology:** 
-1-	Data Collection and Preparation: 
-    o	Load the dataset using Excel as the data analysis tool
-    o	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
+<br>1.	Data Collection and Preparation: 
+    <br>-	Load the dataset using Excel as the data analysis tool
+    <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
+<img width="766" alt="image" src="https://github.com/user-attachments/assets/d1a9ba1b-afc8-4e62-8e75-f1bc1ab0e8d0" />
 
-2-	Descriptive Statistics: o	Calculate summary statistics for key variables, including: 	Total sales and average transaction value 	Number of transactions per month 	Distribution of purchases by product category 	Average quantity purchased per transaction 3-	Data Visualization: o	Create visual representations to illustrate findings: 	Time series graphs showing sales trends over the year. 	Bar charts displaying the most popular product categories. 	Pie charts representing the share of different payment methods. 	Heatmaps of sales by location and time of day. 4-	Customer Segmentation: o	Segment customers based on their purchasing behavior (e.g., high-frequency vs. low-frequency buyers). o	Analyze the purchasing patterns of different segments. 5-	Insights and Findings: o	Summarize the insights derived from the analysis, highlighting: 	Peak shopping periods (e.g., holidays, weekends) 	Trends in product category sales over time 	Preferences in payment methods across customer segments 6-	Recommendations: o	Provide actionable recommendations based on the findings to inform inventory management, targeted marketing campaigns, and promotional strategies. Tools and Technologies: •	Python (Pandas, Matplotlib, Seaborn) or Excel for data analysis •	Data visualization tools (Tableau or Power BI) for creating dashboards Deliverables: •	A detailed report summarizing the methods, findings, and recommendations. •	Visualizations and dashboards to present key insights clearly. •	A presentation for stakeholders to communicate important findings and suggestions for future action. This descriptive analysis project aims to provide a comprehensive understanding of customer purchase behaviors, enabling XYZ Retail to optimize its operations and enhance customer satisfaction.
+
+2.	Descriptive Statistics: 
+<br> Business Question: What is the distribution of the four (4) mechanized system types used for water management in the Downtown City of Vancouver?
+<br>How do we calculate the use of each Mechanized System distribution:
+<br>•	Building Water = (# of Building Water systems / Total # of active mechanized systems) * 100
+<br>•	Cooling Tower = (# of Cooling Tower systems / Total # of active mechanized systems) * 100
+<br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
+<br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
