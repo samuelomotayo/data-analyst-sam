@@ -245,9 +245,12 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 **METHODOLOGY**
 1. Current State Assessment:
    - Conduct a detailed analysis of current data sources and workflows and itemize the existing/potential data quality challenges.
-   - Identify the key datasets that significantly impact business operations and decision-making, such as, operating permits, geolocations and systems maintenance.
+   - Identify the key datasets that significantly impact business operations and decision-making, such as operating permits, geolocations and systems maintenance.
 2. Data Profiling:
-3. Establish Data Quality Metrics:
+   - Utilize data profiling tools (AWS Glue DataBrew) to assess the quality of identified datasets, focusing on completeness, uniqueness, validity, consistency, and accuracy.
+   - Record all identified gaps and issues with the data set with the required immediate attention.
+     
+4. Establish Data Quality Metrics:
 5. Data Cleansing Processes:
 6. Validation Rules and Procedures:
 7. Monitoring and Reporting:
@@ -268,26 +271,6 @@ o	Create data entry guidelines to promote consistency and accuracy.
 6-	Monitoring and Reporting:
 o	Implement monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
 o	Schedule regular reports to review data quality trends and performance against established KPIs.
-
-
-**Source:** City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
-<br> **Geo Local Area:** West End, Fairview 
-<br> **Current system status:** Active 
-<br> **Record Count:** 189 
-<br> **Last Processing Date:** November 19, 2024, 9:52 AM 
-<br> **File Formats:** .XLSX (Excel) 
-<br> **Data Team:** Development, Buildings, and Licensing - Building Policy
-
-**Data Set:** 
-<br>Fairview and Westend have the same similar data structure as indicated below:
-<br>•	**Operating Permit Number (ID):** Unique identifier for each permit issued for each operator
-<br>•	**Address:** Address where each mechanized system is situated
-<br>•	**Mechanized System Status:** The status of each system if active or not
-<br>•	**Permit Renewal Date:** When each operating permit is due for renewal
-<br>•	**Voluntary Participant:** Indicator for each applicant if they willingly reported their system or not
-<br>•	**Marker Colour:** Total price of the transaction 
-<br>•	**Turbidity:** The nature of the mechanized system
-<br>•	**Legionella:** A type of water infection
 
 **DAP System Architecture** <br>
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
