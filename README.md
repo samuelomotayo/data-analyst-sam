@@ -31,7 +31,7 @@ The DAP architecture<br>
 
 **Methodology:** 
 
-<br>1.	Data Collection and Preparation: 
+<br>1.	Data Collection, Ingestion and Preparation: 
     <br>-	Load the dataset using Excel as the data analysis tool
     <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
 
@@ -110,6 +110,56 @@ Data Set: Fairview and Westend have the same similar data structure as indicated
 
 DAP System Architecture
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
+
+**Methodology:** 
+
+<br>1.	Data Collection, Ingestion and Preparation: 
+    <br>-	Load the dataset using Excel as the data analysis tool
+    <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
+
+This includes understanding the following using AWS: 
+    <br>•	Data structure: The number of columns, column names, column order and data type 
+    <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
+<img width="790" alt="image" src="https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f" />
+
+2.	Descriptive Statistics: 
+<br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
+<br>How do we calculate the use of each Mechanized System distribution:
+<br>•	Building Water = (# of Building Water systems / Total # of active mechanized systems) * 100
+<br>•	Cooling Tower = (# of Cooling Tower systems / Total # of active mechanized systems) * 100
+<br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
+<br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
+
+3. Design ETL Pipeline:
+Started by creating the pipeline design using the following functions: 
+<br>•	Extracting the data source from the S3 bucket through the Amazon S3 
+<br>•	Dropped unwanted columns using the ‘Change Schema’ function 
+<br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function 
+<br>•	Merged datasets using the ‘Join’ function •	‘Dynamic transformation’ to calculate the distribution ratio.
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/6625dba1-8ccc-4190-8d1b-2250a3eb26ec" />
+
+4. Highlights and Findings:
+![image](https://github.com/user-attachments/assets/bb1e3a2f-9876-461a-91f9-055be537998a)
+
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
+
+<br> 1. The cooling system is the dominant technology used for water system management in Downtown, representing 57% (276) of the total systems.
+<br> 2.	The Decorative water feature is the second most used system, accounting for 19% of the total count.
+<br> 3.	Rainwater harvesting has the lowest frequency. This suggests limited adoption.
+
+5. Recommendation:
+The City of Vancouver should do the following:
+<br> 1. Focus on the Cooling Tower: Being the most used system in the city (57%), the Agency should establish enhanced maintenance and monitoring protocols and inspection standards to avoid the risk of Legionella outbreaks.
+<br> 2. Strengthen Monitoring for Decorative Water Features and Built Water Treatment Systems: The city should drive awareness to ensure owners adhere to maintenance policies, as both systems represent 41% of the total type. 
+<br> 3. Support Adoption of Rainwater Harvesting Systems: The Agency should provide incentives or subsidies for installation and also run an awareness campaign on the environmental and economic benefits of harvesting rainwater
+<br> 4. Allocate Resources Proportionally: The Agency should provision its resources based on the respective proportion of the systems. 
+
+6. Tools and Technologies:
+<br> 1.	AWS Simple Storage Service (S3): Used to store the ingested data.
+<br> 2.	AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
+<b3> 3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+<br> 4.	Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+
 
 
 
