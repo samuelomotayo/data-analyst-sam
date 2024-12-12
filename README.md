@@ -178,7 +178,9 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 
 # [Project 3: Data Protection]
 
-**Project Overview/Description:** This project covers the data protection of the analytical platform designed for the City of Vancouver’s City Health Agency (CHA). Data protection is critical to the well-being of any organization, and in most cases, data is considered the lifeline of every organization. Unprotected data could create vulnerabilities for an organization whereby unauthorized actors could gain access and tamper with the integrity (information) or even destroy these data, resulting in business disruption. A cybersecurity report from IBM indicated that the estimated global average cost of a data breach is $4.8MM in 2024 (IBM, 2024). This exercise would consider the following to protect CHA’s data: 
+**Project Overview/Description:** This project covers the data protection of the analytical platform designed for the City of Vancouver’s City Health Agency (CHA). Data protection is critical to the well-being of any organization, and in most cases, data is considered the lifeline of every organization. A cybersecurity report from IBM indicated that the estimated global average cost of a data breach is $4.8MM in 2024 (IBM, 2024). 
+
+This exercise would consider the following to protect CHA’s data: 
 <br>•	Confidentiality: Guarding access to these data by identifying who can access it, what they are permitted to do and how they can do that. 
 <br>•	Integrity: Protecting against any alterations; ensuring that it is complete and authentic. Encryption and decryption would be used to protect the integrity of the data. 
 <br>•	Availability: Ensuring accessibility of data when needed; guarding against any disruption.
@@ -217,4 +219,4 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 4. AWS CloudTrails for monitoring users' activities across the platform
 
 **CONCLUSION**
-AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
+Unprotected data could create vulnerabilities for an organization whereby unauthorized actors could gain access and tamper with the integrity (information) or even destroy these data, resulting in business disruption. AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
