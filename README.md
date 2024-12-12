@@ -122,7 +122,7 @@ This includes understanding the following using AWS:
     <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
 <img width="790" alt="image" src="https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f" />
 
-**2.	Explorative Statistics: **
+**2. Explorative Statistics:**
 <br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
 Step 1: Calculate the use of each Mechanized System distribution for each location:
 <br>How do we calculate the use of each Mechanized System distribution:
