@@ -82,21 +82,21 @@ The City of Vancouver should do the following:
 
 # [Project 2: Explorative Analysis]
 
-Project Description: Exploratory Data Analysis (EDA) on Fairview and Westend cities of Vancouver
+**Project Description:** Exploratory Data Analysis (EDA) on Fairview and Westend cities of Vancouver
 
-Project Title: City of Vancouver Health Agency Water Management System Analysis: An Exploratory Data Analysis 
+**Project Title:** City of Vancouver Health Agency Water Management System Analysis: An Exploratory Data Analysis 
 
-Objective: To compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. 
+**Objective:** To compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. 
 
-Data Set Title: Issued operating permits – Water Systems 
+**Data Set Title:** Issued operating permits – Water Systems 
 
-Source: City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
-<br> Geo Local Area: West End, Fairview 
-<br> Current system status: Active 
-<br> Record Count: 189 
-<br> Last Processing Date: November 19, 2024, 9:52 AM 
-<br> File Formats: .XLSX (Excel) 
-<br> Data Team: Development, Buildings, and Licensing - Building Policy
+**Source:** City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
+<br> **Geo Local Area:** West End, Fairview 
+<br> **Current system status:** Active 
+<br> **Record Count:** 189 
+<br> **Last Processing Date:** November 19, 2024, 9:52 AM 
+<br> **File Formats:** .XLSX (Excel) 
+<br> **Data Team:** Development, Buildings, and Licensing - Building Policy
 
 Data Set: Fairview and Westend have the same similar data structure as indicated below:
 <br>•	Operating Permit Number (ID): Unique identifier for each permit issued for each operator
@@ -112,7 +112,6 @@ DAP System Architecture<br>
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
 
 **Methodology:** 
-
 <br>1.	Data Collection, Ingestion and Preparation: 
     <br>-	Load the dataset using Excel as the data analysis tool
     <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
@@ -144,6 +143,9 @@ Step 2: Compare and contrast the result of the outcome in step 1 above.
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
 
 <br>**Insight/Deduction 1:** Mechanical System usage in Fairview and Westend 
+<br>
+<img width="301" alt="image" src="https://github.com/user-attachments/assets/9204fde1-ba18-4abf-80b0-dd548b60cfb6" />
+
 <br>1.	Rainwater Harvesting/Alternative Water System: 
 <br>        -	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
 <br>        -	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
@@ -172,6 +174,6 @@ The City of Vancouver should do the following:
 <b3> 3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
 <br> 4.	Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
 
-
+In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
 
 
