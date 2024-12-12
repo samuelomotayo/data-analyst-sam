@@ -130,7 +130,7 @@ Step 1: Calculate the use of each Mechanized System distribution for each locati
 <br>•	Cooling Tower = (# of Cooling Tower systems / Total # of active mechanized systems) * 100
 <br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
 <br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
-Step 2: Compare and contrast the result of the outcome in step 1 above.
+<br>Step 2: Compare and contrast the result of the outcome in step 1 above.
 
 **3. Design ETL Pipeline:**
 <br>•	Extracting the data source from the S3 bucket through the Amazon S3
