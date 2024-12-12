@@ -61,3 +61,11 @@ Started by creating the pipeline design using the following functions:
 <br> 2.	The Decorative water feature is the second most used system, accounting for 19% of the total count.
 <br> 3.	Rainwater harvesting has the lowest frequency. This suggests limited adoption.
 
+5. Tools and Technologies:
+<br> 1.	AWS Simple Storage Service (S3): Used to store the ingested data.
+<br> 2.	AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
+<b3> 3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+<br> 4.	Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+
+
+# [Project 2: Explorative Analysis]
