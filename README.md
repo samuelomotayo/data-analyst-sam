@@ -297,8 +297,6 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 
 **Objective:** This section showcases how various metrics would be applied to the City of Vancouver Health Agency water management mechanized system Data Analytical Platform to ensure optimal performance using capabilities such as alarms and notifications and a graphical dashboard to visualize the trends across the different metrics and resources. 
 
-**Project Background:** The City of Vancouver Health Agency has recently launched a new Data Analytics Platform (DAP) but is concerned about issues related to data quality, including inaccuracies, duplicate records, and inconsistent formats. In addition, it is also concerned about how sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users to avoid mishandling of data, misguided business strategies, inefficiencies, and regulatory compliance risks. This project aims to implement robust data quality control measures to mitigate these issues through the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle.
-
 **Project Scope:** The project will focus on the following key areas: 
 <br> •	Specify thresholds for resources 
 <br> •	Create trails to monitor users and resources
