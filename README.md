@@ -108,7 +108,7 @@ Data Set: Fairview and Westend have the same similar data structure as indicated
 <br>•	Turbidity: The nature of the mechanized system
 <br>•	Legionella: A type of water infection
 
-DAP System Architecture
+DAP System Architecture<br>
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
 
 **Methodology:** 
@@ -122,7 +122,7 @@ This includes understanding the following using AWS:
     <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
 <img width="790" alt="image" src="https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f" />
 
-2.	Descriptive Statistics: 
+2.	Explorative Statistics: 
 <br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
 Step 1: Calculate the use of each Mechanized System distribution for each location:
 <br>How do we calculate the use of each Mechanized System distribution:
@@ -138,9 +138,11 @@ Started by creating the pipeline design using the following functions:
 <br>•	Dropped unwanted columns using the ‘Change Schema’ function 
 <br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function 
 <br>•	Merged datasets using the ‘Join’ function •	‘Dynamic transformation’ to calculate the distribution ratio.
-<img width="818" alt="image" src="https://github.com/user-attachments/assets/6625dba1-8ccc-4190-8d1b-2250a3eb26ec" />
+<br>•	Created a recipe from the set of treatments for the first data set and applied to the second data set.
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/3a6cfe65-07f8-47ea-918a-b70c215b5deb" />
 
-5. Highlights and Findings:
+
+6. Highlights and Findings:
 ![image](https://github.com/user-attachments/assets/bb1e3a2f-9876-461a-91f9-055be537998a)
 
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
