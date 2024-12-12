@@ -309,7 +309,7 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 
 **METHODOLOGY**
 1. Create thresholds
-   ![image](https://github.com/user-attachments/assets/f4bd02bf-2649-448f-8e5f-809f852ecbc2)
+![image](https://github.com/user-attachments/assets/f4bd02bf-2649-448f-8e5f-809f852ecbc2)
 
 3. Initiate alarms for different resources
 4. Create Monitoring and Reporting system
