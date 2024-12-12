@@ -49,7 +49,7 @@ This includes understanding the following using AWS:
 <br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
 <br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
 
-3: Design ETL Pipeline:
+3. Design ETL Pipeline:
 Started by creating the pipeline design using the following functions: 
 <br>•	Extracting the data source from the S3 bucket through the Amazon S3 
 <br>•	Dropped unwanted columns using the ‘Change Schema’ function 
@@ -66,14 +66,14 @@ Started by creating the pipeline design using the following functions:
 <br> 2.	The Decorative water feature is the second most used system, accounting for 19% of the total count.
 <br> 3.	Rainwater harvesting has the lowest frequency. This suggests limited adoption.
 
-6. Recommendation:
+5. Recommendation:
 The City of Vancouver should do the following:
 <br> 1. Focus on the Cooling Tower: Being the most used system in the city (57%), the Agency should establish enhanced maintenance and monitoring protocols and inspection standards to avoid the risk of Legionella outbreaks.
 <br> 2. Strengthen Monitoring for Decorative Water Features and Built Water Treatment Systems: The city should drive awareness to ensure owners adhere to maintenance policies, as both systems represent 41% of the total type. 
 <br> 3. Support Adoption of Rainwater Harvesting Systems: The Agency should provide incentives or subsidies for installation and also run an awareness campaign on the environmental and economic benefits of harvesting rainwater
 <br> 4. Allocate Resources Proportionally: The Agency should provision its resources based on the respective proportion of the systems. 
 
-7. Tools and Technologies:
+6. Tools and Technologies:
 <br> 1.	AWS Simple Storage Service (S3): Used to store the ingested data.
 <br> 2.	AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
 <b3> 3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
