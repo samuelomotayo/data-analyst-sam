@@ -124,13 +124,15 @@ This includes understanding the following using AWS:
 
 2.	Descriptive Statistics: 
 <br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
+Step 1: Calculate the use of each Mechanized System distribution for each location:
 <br>How do we calculate the use of each Mechanized System distribution:
 <br>•	Building Water = (# of Building Water systems / Total # of active mechanized systems) * 100
 <br>•	Cooling Tower = (# of Cooling Tower systems / Total # of active mechanized systems) * 100
 <br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
 <br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
+Step 2: Compare and contrast the result of the outcome in step 1 above.
 
-3. Design ETL Pipeline:
+4. Design ETL Pipeline:
 Started by creating the pipeline design using the following functions: 
 <br>•	Extracting the data source from the S3 bucket through the Amazon S3 
 <br>•	Dropped unwanted columns using the ‘Change Schema’ function 
@@ -138,7 +140,7 @@ Started by creating the pipeline design using the following functions:
 <br>•	Merged datasets using the ‘Join’ function •	‘Dynamic transformation’ to calculate the distribution ratio.
 <img width="818" alt="image" src="https://github.com/user-attachments/assets/6625dba1-8ccc-4190-8d1b-2250a3eb26ec" />
 
-4. Highlights and Findings:
+5. Highlights and Findings:
 ![image](https://github.com/user-attachments/assets/bb1e3a2f-9876-461a-91f9-055be537998a)
 
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
