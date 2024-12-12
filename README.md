@@ -132,18 +132,18 @@ Step 1: Calculate the use of each Mechanized System distribution for each locati
 <br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
 Step 2: Compare and contrast the result of the outcome in step 1 above.
 
-4. Design ETL Pipeline:
-<br>•	Extracting the data source from the S3 bucket through the Amazon S3 
-<br>•	Dropped unwanted columns using the ‘Change Schema’ function 
-<br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function 
-<br>•	Merged datasets using the ‘Join’ function •	‘Dynamic transformation’ to calculate the distribution ratio.
-<br>•	Created a recipe from the set of treatments for the first data set and applied to the second data set.
+3. Design ETL Pipeline:
+<br>•	Extracting the data source from the S3 bucket through the Amazon S3
+<br>•	Dropped unwanted columns using the ‘Change Schema’ function
+<br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function
+<br>•	Merged datasets using the ‘Join’ function
+<br>•	‘Dynamic transformation’ to calculate the distribution ratio
 <img width="897" alt="image" src="https://github.com/user-attachments/assets/3a6cfe65-07f8-47ea-918a-b70c215b5deb" />
 
-5. Highlights and Findings:
+4. Highlights and Findings:
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
 
-Deduction 1: Mechanical System usage in Fairview and Westend 
+Insight/Deduction 1: Mechanical System usage in Fairview and Westend 
 <br>1.	Rainwater Harvesting/Alternative Water System: 
 <br>a.	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
 <br>b.	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
