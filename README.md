@@ -167,7 +167,7 @@ The City of Vancouver should do the following:
 <br> 3. Support Adoption of Rainwater Harvesting Systems: The Agency should provide incentives or subsidies for installation and also run an awareness campaign on the environmental and economic benefits of harvesting rainwater
 <br> 4. Allocate Resources Proportionally: The Agency should provision its resources based on the respective proportion of the systems. 
 
-6. Tools and Technologies:
+**6. Tools and Technologies:**
 <br> - AWS Simple Storage Service (S3): Used to store the ingested data.
 <br> - AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
 <b3> - AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
