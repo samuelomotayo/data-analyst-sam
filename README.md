@@ -81,3 +81,13 @@ The City of Vancouver should do the following:
 
 
 # [Project 2: Explorative Analysis]
+
+In this explorative analysis section, I compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. Data Set Title: Issued operating permits – Water Systems 
+
+Source: City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
+<br> Geo Local Area: West End, Fairview 
+<br> Current system status: Active 
+<br> Record Count: 189 
+<br> Last Processing Date: November 19, 2024, 9:52 AM 
+<br> File Formats: .XLSX (Excel) 
+<br> Data Team: Development, Buildings, and Licensing - Building Policy
