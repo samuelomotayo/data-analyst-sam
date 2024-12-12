@@ -122,7 +122,7 @@ This includes understanding the following using AWS:
     <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
 <img width="790" alt="image" src="https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f" />
 
-2.	Explorative Statistics: 
+**2.	Explorative Statistics: **
 <br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
 Step 1: Calculate the use of each Mechanized System distribution for each location:
 <br>How do we calculate the use of each Mechanized System distribution:
@@ -132,7 +132,7 @@ Step 1: Calculate the use of each Mechanized System distribution for each locati
 <br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
 Step 2: Compare and contrast the result of the outcome in step 1 above.
 
-3. Design ETL Pipeline:
+**3. Design ETL Pipeline:**
 <br>•	Extracting the data source from the S3 bucket through the Amazon S3
 <br>•	Dropped unwanted columns using the ‘Change Schema’ function
 <br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function
@@ -140,13 +140,13 @@ Step 2: Compare and contrast the result of the outcome in step 1 above.
 <br>•	‘Dynamic transformation’ to calculate the distribution ratio
 <img width="897" alt="image" src="https://github.com/user-attachments/assets/3a6cfe65-07f8-47ea-918a-b70c215b5deb" />
 
-4. Highlights and Findings:
+**4. Highlights and Findings:**
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
 
-Insight/Deduction 1: Mechanical System usage in Fairview and Westend 
+**Insight/Deduction 1:** Mechanical System usage in Fairview and Westend 
 <br>1.	Rainwater Harvesting/Alternative Water System: 
-<br>a.	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
-<br>b.	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
+<br>        a.	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
+<br>        b.	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
 <br>2.	Building Water Treatment System: 
 <br>a.	Prominently used in both locations and ranked the second most used. 
 <br>b.	Data indicates it is among the two most used systems in Westend. c.	A count of 36 (39.56%) in Westend compared to 28 (28.57%) in Fairview. 
