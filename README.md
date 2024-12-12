@@ -191,10 +191,23 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 ![image](https://github.com/user-attachments/assets/f9f5c7d0-19ac-4da1-bd46-ccf7f2facd34)
 
 <br> **METHODOLOGY**
-1. Confidentiality - Initiate Symmetric Protection Key
-2. Establish Permission (Admin & Users)
-3. Apply Encryption & Decryption to all resources
-4. Integrity -
-5. Accessibility 
+1. Confidentiality
+   - Initiate Symmetric Protection Key
+   - Establish Permission (Admin & Users)
+     
+2. Integrity:
+   - Apply Encryption & Decryption to all resources
+   - Initiate S3 Bucket Versioning
+   - Initiate S3 Replication Rule 
+   
+3. Accessibility
+   - Initiate S3 Bucket Versioning for all zones 
+   - Initiate S3 Replication Rule for all storage zones 
 
+**TOOLS & TECHNOLOGIES**
+1. Amazon Web Service (AWS) Key Management System (KMS)
+2. AWS Simple Storgae Service (S3)
+3. AWS Cloud Watch for monitoring 
 
+**CONCLUSION**
+AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
