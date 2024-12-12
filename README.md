@@ -163,11 +163,9 @@ This includes understanding the following using AWS:
 
 **5. Recommendation:**
 The City of Vancouver should do the following:
-<br> 1. Promote Rainwater Harvesting/Alternative Water Systems: Being the most used system in the city (57%), the Agency should establish enhanced maintenance and monitoring protocols and inspection standards to avoid the risk of Legionella outbreaks.
-<br> 2. Prioritize Maintenance for Cooling Towers: The city should drive awareness to ensure owners adhere to maintenance policies, as both systems represent 41% of the total type. 
-<br> 3. Optimize Resources for Building Water Treatment Systems: The Agency should provide incentives or subsidies for installation and also run an awareness campaign on the environmental and economic benefits of harvesting rainwater
-<br> 4. Equal Attention for Decorative Water Features: The Agency should provision its resources based on the respective proportion of the systems. 
-<br> 5. Address Geographic Disparities: The Agency should provision its resources based on the respective proportion of the systems. 
+<br> 1. Promote Rainwater Harvesting/Alternative Water Systems: The City Health Agency should incentivize the adoption of the Rainwater harvesting system, educate the community about the environmental benefits, and simplify regulations to increase uptake.
+<br> 2. Prioritize Maintenance for Cooling Towers: As the most used mechanized system, the Agency should establish preventive maintenance schedules, introduce technology upgrades, and monitor water quality.
+<br> 3. Equal Attention for Decorative Water Features: Despite the equal count in both locations, the Agency should monitor water quality and promote sustainable practices as the decorative water features require careful monitoring due to their tendency for waterborne disease spread
 
 **6. Tools and Technologies:**
 <br> - AWS Simple Storage Service (S3): Used to store the ingested data.
