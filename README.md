@@ -41,3 +41,18 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 <br>•	Cooling Tower = (# of Cooling Tower systems / Total # of active mechanized systems) * 100
 <br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
 <br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
+
+3: Design ETL Pipeline:
+Started by creating the pipeline design using the following functions: 
+<br>•	Extracting the data source from the S3 bucket through the Amazon S3 
+<br>•	Dropped unwanted columns using the ‘Change Schema’ function 
+<br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function 
+<br>•	Merged datasets using the ‘Join’ function •	‘Dynamic transformation’ to calculate the distribution ratio.
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/6625dba1-8ccc-4190-8d1b-2250a3eb26ec" />
+
+5. Highlights and Findings:
+![image](https://github.com/user-attachments/assets/bb1e3a2f-9876-461a-91f9-055be537998a)
+<br> 1. The cooling system is the dominant technology used for water system management in Downtown, representing 57% (276) of the total systems.
+<br> 2.	The Decorative water feature is the second most used system, accounting for 19% of the total count.
+<br> 3.	Rainwater Harvesting is the lowest in terms of frequency. This suggests limited adoption.
+
