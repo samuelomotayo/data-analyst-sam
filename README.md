@@ -141,8 +141,6 @@ Step 2: Compare and contrast the result of the outcome in step 1 above.
 <img width="897" alt="image" src="https://github.com/user-attachments/assets/3a6cfe65-07f8-47ea-918a-b70c215b5deb" />
 
 **4. Highlights and Findings:**
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
-
 <br>**Insight/Deduction 1:** Mechanical System usage in Fairview and Westend 
 <br>
 <img width="301" alt="image" src="https://github.com/user-attachments/assets/9204fde1-ba18-4abf-80b0-dd548b60cfb6" />
@@ -170,10 +168,10 @@ The City of Vancouver should do the following:
 <br> 4. Allocate Resources Proportionally: The Agency should provision its resources based on the respective proportion of the systems. 
 
 6. Tools and Technologies:
-<br> 1.	AWS Simple Storage Service (S3): Used to store the ingested data.
-<br> 2.	AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
-<b3> 3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
-<br> 4.	Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+<br> - AWS Simple Storage Service (S3): Used to store the ingested data.
+<br> - AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
+<b3> - AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+<br> - Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
 
 In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
 
