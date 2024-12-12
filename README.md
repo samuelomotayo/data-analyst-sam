@@ -112,8 +112,8 @@ The City of Vancouver should do the following:
 **DAP System Architecture** <br>
 <img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
 
-**Methodology:** 
-<br>1.	Data Collection, Ingestion and Preparation: 
+**METHODOLOGY:** 
+<br> **1. Data Collection, Ingestion and Preparation:**
     <br>-	Load the dataset using Excel as the data analysis tool
     <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
 
