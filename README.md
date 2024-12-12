@@ -11,7 +11,7 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 **Data Set Title:** Issued operating permits – Water Systems 
 <br> **Source:** The City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
 <br> **Applied filters:** Geo Local Area: Downtown and	Current system status: 
-**Active Record Count:** 434 
-**Last Processing Date: **November 19, 2024, 9:52 AM 
-**File Formats:** CSV and XLSX (Excel) 
+<br> **Active Record Count:** 434 
+<br> **Last Processing Date: **November 19, 2024, 9:52 AM 
+<br> **File Formats:** CSV and XLSX (Excel) 
 
