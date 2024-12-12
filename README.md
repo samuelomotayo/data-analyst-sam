@@ -281,3 +281,10 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 4. AWS CloudWatch: CloudWatch is a monitoring service for AWS cloud resources and applications on Amazon Web Services.
 5. AWS CloudTrail: CloudTrail is a service that records and logs any activity in your AWS account performed by a user, role, or an AWS service.
 6. Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+
+**Deliverables:** 
+1. A comprehensive Data Quality Control plan detailing processes, metrics, and responsibilities.
+2. Documentation of data quality metrics and KPIs being tracked.
+3. Cleaned and validated datasets ready for analysis and reporting.
+4. Training resources, including materials and workshops, designed to educate staff on data quality practices.
+5. A monitoring dashboard that visualizes data quality metrics in real-time.
