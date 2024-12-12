@@ -107,3 +107,9 @@ Data Set: Fairview and Westend have the same similar data structure as indicated
 <br>•	Marker Colour: Total price of the transaction 
 <br>•	Turbidity: The nature of the mechanized system
 <br>•	Legionella: A type of water infection
+
+DAP System Architecture
+<img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
+
+
+
