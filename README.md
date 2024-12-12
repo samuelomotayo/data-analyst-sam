@@ -6,7 +6,7 @@ This repository describes the  end-to-end portfolio of the Data Analytics Platfo
 
 Project Title: Data Analytic Platform (DAP) Design and Implementation for City of Vancouver Issued Operating Permits – Water Systems.
 
-**About the Client: **The City of Vancouver, as part of its continuous effort to retain its place as one of the world’s most livable cities due to its quality of life and clean environment, intends to understand (gain insight) into the water quality city, especially regarding how mechanized systems are used for existing cooling towers, decorative water features, building water treatment systems and rainwater harvesting/non-potable water systems in order to effectively mitigate health risks by pathogens through its operating permits for water systems.
+**About the Client:** The City of Vancouver, as part of its continuous effort to retain its place as one of the world’s most livable cities due to its quality of life and clean environment, intends to understand (gain insight) into the water quality city, especially regarding how mechanized systems are used for existing cooling towers, decorative water features, building water treatment systems and rainwater harvesting/non-potable water systems in order to effectively mitigate health risks by pathogens through its operating permits for water systems.
 
 **Data Set Title:** Issued operating permits – Water Systems 
 <br> **Source:** The City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
@@ -176,3 +176,23 @@ The City of Vancouver should do the following:
 In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
 
 
+# [Project 3: Data Protection]
+
+**Project Overview/Description:** This project covers the data protection of the analytical platform designed for the City of Vancouver’s City Health Agency (CHA). Data protection is critical to the well-being of any organization, and in most cases, data is considered the lifeline of every organization. Unprotected data could create vulnerabilities for an organization whereby unauthorized actors could gain access and tamper with the integrity (information) or even destroy these data, resulting in business disruption. A cybersecurity report from IBM indicated that the estimated global average cost of a data breach is $4.8MM in 2024 (IBM, 2024). This exercise would consider the following to protect CHA’s data: 
+<br>•	Confidentiality: Guarding access to these data by identifying who can access it, what they are permitted to do and how they can do that. 
+<br>•	Integrity: Protecting against any alterations; ensuring that it is complete and authentic. Encryption and decryption would be used to protect the integrity of the data. 
+<br>•	Availability: Ensuring accessibility of data when needed; guarding against any disruption.
+
+**Project Title:** City of Vancouver Health Agency Water Management System Analysis: An Exploratory Data Analysis 
+
+**Objective:** To compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. 
+
+**Data Set Title:** Issued operating permits – Water Systems 
+
+**Source:** City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
+<br> **Geo Local Area:** West End, Fairview 
+<br> **Current system status:** Active 
+<br> **Record Count:** 189 
+<br> **Last Processing Date:** November 19, 2024, 9:52 AM 
+<br> **File Formats:** .XLSX (Excel) 
+<br> **Data Team:** Development, Buildings, and Licensing - Building Policy
