@@ -190,4 +190,11 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 **Data Protection Framework/Architecture:** <br>
 ![image](https://github.com/user-attachments/assets/f9f5c7d0-19ac-4da1-bd46-ccf7f2facd34)
 
+<br> **METHODOLOGY**
+1. Confidentiality - Initiate Symmetric Protection Key
+2. Establish Permission (Admin & Users)
+3. Apply Encryption & Decryption to all resources
+4. Integrity -
+5. Accessibility 
+
 
