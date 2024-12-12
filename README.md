@@ -133,7 +133,6 @@ Step 1: Calculate the use of each Mechanized System distribution for each locati
 Step 2: Compare and contrast the result of the outcome in step 1 above.
 
 4. Design ETL Pipeline:
-Started by creating the pipeline design using the following functions: 
 <br>•	Extracting the data source from the S3 bucket through the Amazon S3 
 <br>•	Dropped unwanted columns using the ‘Change Schema’ function 
 <br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function 
@@ -141,15 +140,24 @@ Started by creating the pipeline design using the following functions:
 <br>•	Created a recipe from the set of treatments for the first data set and applied to the second data set.
 <img width="897" alt="image" src="https://github.com/user-attachments/assets/3a6cfe65-07f8-47ea-918a-b70c215b5deb" />
 
-
-6. Highlights and Findings:
-![image](https://github.com/user-attachments/assets/bb1e3a2f-9876-461a-91f9-055be537998a)
-
+5. Highlights and Findings:
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
 
-<br> 1. The cooling system is the dominant technology used for water system management in Downtown, representing 57% (276) of the total systems.
-<br> 2.	The Decorative water feature is the second most used system, accounting for 19% of the total count.
-<br> 3.	Rainwater harvesting has the lowest frequency. This suggests limited adoption.
+Deduction 1: Mechanical System usage in Fairview and Westend 
+<br>1.	Rainwater Harvesting/Alternative Water System: 
+<br>a.	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
+<br>b.	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
+<br>2.	Building Water Treatment System: 
+<br>a.	Prominently used in both locations and ranked the second most used. 
+<br>b.	Data indicates it is among the two most used systems in Westend. c.	A count of 36 (39.56%) in Westend compared to 28 (28.57%) in Fairview. 
+<br>3.	Cooling Tower: 
+<br>a.	The Cooling Tower system appears to be the most used and dominant water system management technology in both locations. 
+<br>b.	Dominant in Fairview – 50 counts (51.02%) and equally significant in Westend but with 36 counts (39.6%). 
+<br>4.	Decorative Water Feature: The trend indicates equal usage, with 18 counts in Fairview and Westend, which represent 19.78% and 18.37% respectively. 
+
+<br>Deduction 2: Total Usage in both Locations 
+<br>1.	Fairview has more mechanized systems compared to Westend - 98 vs 91 counts 
+<br>2.	Despite the fewer counts in Westend, the Building Water Treatment System and Decorative Water Feature are higher in Westend compared to Fairview
 
 5. Recommendation:
 The City of Vancouver should do the following:
