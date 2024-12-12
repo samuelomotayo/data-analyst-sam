@@ -142,14 +142,14 @@ Step 2: Compare and contrast the result of the outcome in step 1 above.
 
 **4. Highlights and Findings:**
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
-
+<br>
 **Insight/Deduction 1:** Mechanical System usage in Fairview and Westend 
 <br>1.	Rainwater Harvesting/Alternative Water System: 
 <br>        a.	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
 <br>        b.	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
 <br>2.	Building Water Treatment System: 
-<br>a.	Prominently used in both locations and ranked the second most used. 
-<br>b.	Data indicates it is among the two most used systems in Westend. c.	A count of 36 (39.56%) in Westend compared to 28 (28.57%) in Fairview. 
+<br>        a.	Prominently used in both locations and ranked the second most used. 
+<br>        b.	Data indicates it is among the two most used systems in Westend. c.	A count of 36 (39.56%) in Westend compared to 28 (28.57%) in Fairview. 
 <br>3.	Cooling Tower: 
 <br>a.	The Cooling Tower system appears to be the most used and dominant water system management technology in both locations. 
 <br>b.	Dominant in Fairview – 50 counts (51.02%) and equally significant in Westend but with 36 counts (39.6%). 
