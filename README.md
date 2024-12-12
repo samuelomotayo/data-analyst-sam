@@ -220,3 +220,105 @@ This exercise would consider the following to protect CHA’s data:
 
 **CONCLUSION**
 Unprotected data could create vulnerabilities for an organization whereby unauthorized actors could gain access and tamper with the integrity (information) or even destroy these data, resulting in business disruption. AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
+
+
+# [Project 5: Data Quality Control (Data Governance)]
+
+**Project Overview/Description:** Data governance is the collection of processes, policies, roles, metrics, and standards that ensure data is secured, protected, private, accurate (integrity), and usable throughout the data life cycle - this includes how the data is managed. For example, sensitive data that contains Personally Identifiable Information (PII) are governed by certain policies to ensure that they are only accessible to authorized users. 
+<br>Data governance provides the following benefits: 
+<br>•	Improves data quality 
+<br>•	Increases operational efficiency 
+<br>•	Supports regulatory compliance
+
+**Project Title:** Data Control and Governance for the City of Vancouver Health Agency Data Analytics Platform
+
+**Objective:** To implement Data Control and Governance for the City of Vancouver Health Agency Data Analytics Platform
+
+**Data Set Title:** Issued operating permits – Water Systems 
+
+**Source:** City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
+<br> **Geo Local Area:** West End, Fairview 
+<br> **Current system status:** Active 
+<br> **Record Count:** 189 
+<br> **Last Processing Date:** November 19, 2024, 9:52 AM 
+<br> **File Formats:** .XLSX (Excel) 
+<br> **Data Team:** Development, Buildings, and Licensing - Building Policy
+
+**Data Set:** 
+<br>Fairview and Westend have the same similar data structure as indicated below:
+<br>•	**Operating Permit Number (ID):** Unique identifier for each permit issued for each operator
+<br>•	**Address:** Address where each mechanized system is situated
+<br>•	**Mechanized System Status:** The status of each system if active or not
+<br>•	**Permit Renewal Date:** When each operating permit is due for renewal
+<br>•	**Voluntary Participant:** Indicator for each applicant if they willingly reported their system or not
+<br>•	**Marker Colour:** Total price of the transaction 
+<br>•	**Turbidity:** The nature of the mechanized system
+<br>•	**Legionella:** A type of water infection
+
+**DAP System Architecture** <br>
+<img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
+
+**METHODOLOGY:** 
+<br> **1. Data Collection, Ingestion and Preparation:**
+    <br>-	Load the dataset using Excel as the data analysis tool
+    <br>-	Perform data cleaning to address missing values, correct data types, and remove duplicates using AWS Glue DataBrew
+
+This includes understanding the following using AWS: 
+    <br>•	Data structure: The number of columns, column names, column order and data type 
+    <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
+<img width="790" alt="image" src="https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f" />
+
+**2. Explorative Statistics:**
+<br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
+<br>Step 1: Calculate the use of each Mechanized System distribution for each location:
+<br>How do we calculate the use of each Mechanized System distribution:
+<br>•	Building Water = (# of Building Water systems / Total # of active mechanized systems) * 100
+<br>•	Cooling Tower = (# of Cooling Tower systems / Total # of active mechanized systems) * 100
+<br>•	Decorative Water = (# of Decorative Water systems / Total # of active mechanized systems) * 100
+<br>•	Rainwater Harvesting = (# of building water systems / Total # of active mechanized systems) * 100
+<br>Step 2: Compare and contrast the result of the outcome in step 1 above.
+
+**3. Design ETL Pipeline:**
+<br>•	Extracting the data source from the S3 bucket through the Amazon S3
+<br>•	Dropped unwanted columns using the ‘Change Schema’ function
+<br>•	Counted the number of rows in the dataset using ‘Aggregate’ as a summarization function
+<br>•	Merged datasets using the ‘Join’ function
+<br>•	‘Dynamic transformation’ to calculate the distribution ratio
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/3a6cfe65-07f8-47ea-918a-b70c215b5deb" />
+
+**4. Highlights and Findings:**
+<br>**Insight/Deduction 1:** Mechanical System usage in Fairview and Westend 
+<br>
+![image](https://github.com/user-attachments/assets/b0407223-7157-40ff-903f-7e646b92b160)
+
+<br>1.	Rainwater Harvesting/Alternative Water System: 
+<br>        -	A common trend in both locations is that the Rainwater Harvesting/Alternative Water system is the least of all mechanized systems used with 2 in Fairview and 1 in Westend. 
+<br>        -	This mechanized system represents the smallest portion of the overall system count with 2.04% in Fairview and 1.10% in Westend. 
+<br>2.	Building Water Treatment System: 
+<br>        -	Prominently used in both locations and ranked the second most used. 
+<br>        -	Data indicates it is among the two most used systems in Westend. c.	A count of 36 (39.56%) in Westend compared to 28 (28.57%) in Fairview. 
+<br>3.	Cooling Tower: 
+<br>-	The Cooling Tower system appears to be the most used and dominant water system management technology in both locations. 
+<br>-	Dominant in Fairview – 50 counts (51.02%) and equally significant in Westend but with 36 counts (39.6%). 
+<br>4.	Decorative Water Feature: The trend indicates equal usage, with 18 counts in Fairview and Westend, which represent 19.78% and 18.37% respectively. 
+<br> ![image](https://github.com/user-attachments/assets/b7750ad0-6ca3-4b52-9e09-0ee50a0d445f)
+
+
+<br>**Deduction 2:** Total Usage in both Locations 
+<br>1.	Fairview has more mechanized systems compared to Westend - 98 vs 91 counts 
+<br>2.	Despite the fewer counts in Westend, the Building Water Treatment System and Decorative Water Feature are higher in Westend compared to Fairview
+
+**5. Recommendation:**
+The City of Vancouver should do the following:
+<br> 1. Promote Rainwater Harvesting/Alternative Water Systems: The City Health Agency should incentivize the adoption of the Rainwater harvesting system, educate the community about the environmental benefits, and simplify regulations to increase uptake.
+<br> 2. Prioritize Maintenance for Cooling Towers: As the most used mechanized system, the Agency should establish preventive maintenance schedules, introduce technology upgrades, and monitor water quality.
+<br> 3. Equal Attention for Decorative Water Features: Despite the equal count in both locations, the Agency should monitor water quality and promote sustainable practices as the decorative water features require careful monitoring due to their tendency for waterborne disease spread
+
+**6. Tools and Technologies:**
+<br> - AWS Simple Storage Service (S3): Used to store the ingested data.
+<br> - AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization. 
+<br> - AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+<br> - Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+
+In conclusion, data shows that Fairview has more mechanized systems compared to Westend. The low count of Rainwater harvesting/Alternative water systems in both locations potentially highlights low adoption or other factors such as perceived value or environmental factors concerns. The building water treatment system is prominently used in both locations but the Cooling System appears to be the most preferred in both locations.
+
