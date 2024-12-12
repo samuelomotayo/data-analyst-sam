@@ -187,7 +187,7 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
 
 **Objective:** To protect the Agency's Data Analytics Platform by ensuring data confidentiality, integrity and availability.
 
-**Data Protection Framework/Architecture:** 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/f9f5c7d0-19ac-4da1-bd46-ccf7f2facd34" />
+**Data Protection Framework/Architecture:** <br>
+![image](https://github.com/user-attachments/assets/f9f5c7d0-19ac-4da1-bd46-ccf7f2facd34)
 
 
