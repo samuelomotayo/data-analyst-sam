@@ -155,7 +155,7 @@ Step 1: Calculate the use of each Mechanized System distribution for each locati
 <br>-	The Cooling Tower system appears to be the most used and dominant water system management technology in both locations. 
 <br>-	Dominant in Fairview – 50 counts (51.02%) and equally significant in Westend but with 36 counts (39.6%). 
 <br>4.	Decorative Water Feature: The trend indicates equal usage, with 18 counts in Fairview and Westend, which represent 19.78% and 18.37% respectively. 
-<br> <img width="301" alt="image" src="https://github.com/user-attachments/assets/b7750ad0-6ca3-4b52-9e09-0ee50a0d445f" />
+<br> ![image](https://github.com/user-attachments/assets/b7750ad0-6ca3-4b52-9e09-0ee50a0d445f)
 
 
 <br>**Deduction 2:** Total Usage in both Locations 
