@@ -201,17 +201,18 @@ In conclusion, data shows that Fairview has more mechanized systems compared to 
      ![image](https://github.com/user-attachments/assets/c54343d1-16e2-4e5d-bd28-299e6237ff9e)
 
    - Initiate S3 Bucket Versioning
-   - Initiate S3 Replication Rule 
+   - Initiate S3 Replication Rule
+     ![image](https://github.com/user-attachments/assets/34dcf0a2-957c-403c-a19e-d3b3280baddb)
 
-   
 3. Accessibility
    - Initiate S3 Bucket Versioning for all zones 
    - Initiate S3 Replication Rule for all storage zones 
 
 **TOOLS & TECHNOLOGIES**
-1. Amazon Web Service (AWS) Key Management System (KMS)
+1. Amazon Web Service (AWS) Key Management System (KMS) for a 2-way encryption and decryption operation.
 2. AWS Simple Storgae Service (S3)
-3. AWS Cloud Watch for monitoring 
+3. AWS CloudWatch for monitoring resources
+4. AWS CloudTrails for monitoring users' activities across the platform
 
 **CONCLUSION**
 AWS CloudTrail and Cloudwatch are used to monitor users' activities and resources across the platform. 
