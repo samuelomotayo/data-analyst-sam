@@ -264,21 +264,14 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
     ![image](https://github.com/user-attachments/assets/a9262204-c1da-478a-af6a-bd09819b2d19)
 
 5. Validation Rules and Procedures:
-6. Monitoring and Reporting:
+   - Set up validation rules for new data entries to reduce the risk of poor-quality data being introduced into the system.
+   - Create data entry guidelines to promote consistency and accuracy.
+![image](https://github.com/user-attachments/assets/60baadb9-38bb-467e-9798-84307d93f619)
 
-5-	Validation Rules and Procedures:
-o	Set up validation rules for new data entries to reduce the risk of poor-quality data being introduced into the system.
-o	Create data entry guidelines to promote consistency and accuracy.
 6-	Monitoring and Reporting:
 o	Implement monitoring tools and dashboards that provide real-time data quality metrics and alerts for significant deviations.
 o	Schedule regular reports to review data quality trends and performance against established KPIs.
 
-
-**5. Recommendation:**
-The City of Vancouver should do the following:
-<br> 1. Promote Rainwater Harvesting/Alternative Water Systems: The City Health Agency should incentivize the adoption of the Rainwater harvesting system, educate the community about the environmental benefits, and simplify regulations to increase uptake.
-<br> 2. Prioritize Maintenance for Cooling Towers: As the most used mechanized system, the Agency should establish preventive maintenance schedules, introduce technology upgrades, and monitor water quality.
-<br> 3. Equal Attention for Decorative Water Features: Despite the equal count in both locations, the Agency should monitor water quality and promote sustainable practices as the decorative water features require careful monitoring due to their tendency for waterborne disease spread
 
 **6. Tools and Technologies:**
 <br> - AWS Simple Storage Service (S3): Used to store the ingested data.
