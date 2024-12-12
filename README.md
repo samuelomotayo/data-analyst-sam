@@ -82,7 +82,13 @@ The City of Vancouver should do the following:
 
 # [Project 2: Explorative Analysis]
 
-In this explorative analysis section, I compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. Data Set Title: Issued operating permits – Water Systems 
+Project Description: Exploratory Data Analysis (EDA) on Fairview and Westend cities of Vancouver
+
+Project Title: City of Vancouver Health Agency Water Management System Analysis: An Exploratory Data Analysis 
+
+Objective: To compare the mechanized system distribution in two (2) locations in Vancouver (Fairview and West End) to examine whether any form of correlation, trends or pattern exists between them. 
+
+Data Set Title: Issued operating permits – Water Systems 
 
 Source: City of Vancouver Open Data Portal (Issued operating permits – water systems, 2024) 
 <br> Geo Local Area: West End, Fairview 
@@ -91,3 +97,13 @@ Source: City of Vancouver Open Data Portal (Issued operating permits – water s
 <br> Last Processing Date: November 19, 2024, 9:52 AM 
 <br> File Formats: .XLSX (Excel) 
 <br> Data Team: Development, Buildings, and Licensing - Building Policy
+
+Data Set: Fairview and Westend have the same similar data structure as indicated below:
+<br>•	Operating Permit Number (ID): Unique identifier for each permit issued for each operator
+<br>•	Address: Address where each mechanized system is situated
+<br>•	Mechanized System Status: The status of each system if active or not
+<br>•	Permit Renewal Date: When each operating permit is due for renewal
+<br>•	Voluntary Participant: Indicator for each applicant if they willingly reported their system or not
+<br>•	Marker Colour: Total price of the transaction 
+<br>•	Turbidity: The nature of the mechanized system
+<br>•	Legionella: A type of water infection
