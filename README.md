@@ -63,10 +63,10 @@ Started by creating the pipeline design using the following functions:
 
 5. Recommendation:
 The City of Vancouver should do the following:
-1. Focus on the Cooling Tower:
-2. Strengthen Monitoring for Decorative Water Features and Built Water Treatment Systems:
-3. Support Adoption of Rainwater Harvesting Systems:
-4. Allocate Resources Proportionally:
+<br> 1. Focus on the Cooling Tower: Being the most used system in the city (57%), the Agency should establish enhanced maintenance and monitoring protocols and inspection standards to avoid the risk of Legionella outbreaks.
+<br> 2. Strengthen Monitoring for Decorative Water Features and Built Water Treatment Systems: The city should drive awareness to ensure owners adhere to maintenance policies, as both systems represent 41% of the total type. 
+<br> 3. Support Adoption of Rainwater Harvesting Systems: The Agency should provide incentives or subsidies for installation and also run an awareness campaign on the environmental and economic benefits of harvesting rainwater
+<br> 4. Allocate Resources Proportionally: The Agency should provision its resources based on the respective proportion of the systems. 
 
 7. Tools and Technologies:
 <br> 1.	AWS Simple Storage Service (S3): Used to store the ingested data.
