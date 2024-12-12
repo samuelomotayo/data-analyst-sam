@@ -243,7 +243,7 @@ Unprotected data could create vulnerabilities for an organization whereby unauth
 <br> •	Monitoring and Reporting: Establishing ongoing monitoring processes and dashboards to track data quality metrics. 
 
 **DAP System Architecture** <br>
-![image](https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1)
+![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
 
 **METHODOLOGY**
 1. Current State Assessment:
