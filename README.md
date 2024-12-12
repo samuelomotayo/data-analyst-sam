@@ -15,7 +15,9 @@ Project Title: Data Analytic Platform (DAP) Design and Implementation for City o
 <br> **Last Processing Date:** November 19, 2024, 9:52 AM 
 <br> **File Formats:** CSV and XLSX (Excel) 
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/0eeeb856-06d5-4793-b7d6-2f2c94c1a4fd" />
+The DAP architecture
+<img width="546" alt="image" src="https://github.com/user-attachments/assets/e03a5606-6f3f-4031-be5d-0f63ca888dea" />
+
 
 **Dataset:** The dataset includes transactional data from XYZ Retail over the past year, containing the following key features: 
 <br>•	Operating Permit Number (ID): Unique identifier for each permit issued for each operator
