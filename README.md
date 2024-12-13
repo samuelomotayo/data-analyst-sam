@@ -345,13 +345,38 @@ The data wrangling process will involve various datasets, including:
 - Type of Data source: S3 Bucket
 - Data Generator: File - .CSV and Excel Files from humans Model: Relational
 
-**METHODOLOGY:**
-1. Data Ingestion: Create a Table in the DynamoDB to ingest semi-structured data. Identify the primary key and the permission key.
-2. Data Profiling: On DynamoDB, explore the (semi-data) item to view the data structure (columns) and content (rows), which will be stored in .JSON file format.
-3. Data Exploration: Indicate which folder where the explored data would exported using the S3 folder link.
-4. Data Export: Previous the exported or stored data from DynamoDB in S3. The DynamoDB would automatically create a different folder in the specified location.
-5. Data Catalogue: Create a data catalogue – this is the collection of all the tables and the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
-
 **DAP System Architecture** <br>
 ![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
+
+**METHODOLOGY:**
+1. Data Ingestion: Create a Table in the DynamoDB to ingest semi-structured data. Identify the primary key and the permission key.
+2. Data Crawling: Use AWS Crawler to spool and aggregate all the datasets and convert them into tables.
+3. Data Profiling: On DynamoDB, explore the (semi-data) item to view the data structure (columns) and content (rows), which will be stored in .JSON file format.
+4. Data Exploration: Indicate which folder where the explored data would exported using the S3 folder link.
+5. Data Export: Previous the exported or stored data from DynamoDB in S3. The DynamoDB would automatically create a different folder in the specified location.
+6. Data Catalogue: Create a data catalogue – this is the collection of all the tables and the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
+7. Data Analysis: Using AWS Athena to query the enriched database using SQL.
+
+An interface to create a database on AWS Glue
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/8fad2dfe-5b58-493f-ab93-1388b4e9ffdc" />
+
+A preview of Athena’s interface that enables records query using SQL.
+<img width="424" alt="image" src="https://github.com/user-attachments/assets/bfef646f-a2a1-4579-8e1a-9694a8d078cf" />
+
+Setting up crawler’s properties for one of the identified zones.
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/f349ad4b-d8c8-41c3-9299-072c0b8d961b" />
+
+**Tools and Technologies:**
+1. AWS Simple Storage Service (S3): Used to store the ingested data.
+2. AWS Data Brew: Helps in profiling (understanding) and transforming (cleaning) data for high quality and summarization.
+3. AWS Data Glue: This AWS is used to Extract, Transform and Load (ETL) the dataset. This service helps to analyze the dataset to achieve the desired insight.
+4. AWS Athena: an interactive query service that enables a simplified data analysis in Amazon S3 using standard SQL
+5. AWS DynamoDB: a serverless, NoSQL, fully managed database with single-digit millisecond performance at any scale
+6. Draw.io: This is used for the technical drawing that provides a graphical view of how the different systems and components interact.
+
+**Deliverables:** 
+1. Documentation of data quality metrics and KPIs being tracked.
+2. A cleaned, curated and validated dataset ready for analysis and reporting.
+3. A monitoring dashboard that visualizes data quality metrics and real-time access.
+
 
