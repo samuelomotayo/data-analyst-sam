@@ -326,9 +326,9 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 
 # [Project 6: Data Wrangling/Enriching]
 
-**Project Description:** Data Wrangling for Customer Analytics at XYZ Company Project Title: Data Wrangling for Enhanced Customer Analytics at XYZ Company 
+**Project Description:** Enriching data for the City Health Agency at the City of Vancouver.
 
-**Project Title:** Data Observability for the City of Vancouver Health Agency Data Analytics Platform
+**Project Title:** Data Enriching for the City of Vancouver Health Agency Data Analytics Platform
 
 **Objective:** The primary goal of this project is to perform comprehensive data wrangling to prepare a robust dataset for customer analytics at XYZ Company. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of customer data for subsequent analysis and reporting. 
 
