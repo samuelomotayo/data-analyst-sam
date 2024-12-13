@@ -357,14 +357,14 @@ The data wrangling process will involve various datasets, including:
 6. Data Catalogue: Create a data catalogue – this is the collection of all the tables and the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
 7. Data Analysis: Using AWS Athena to query the enriched database using SQL.
 
-An interface to create a database on AWS Glue
-<img width="410" alt="image" src="https://github.com/user-attachments/assets/8fad2dfe-5b58-493f-ab93-1388b4e9ffdc" />
+An interface to create a database on AWS Glue <br>
+![image](https://github.com/user-attachments/assets/8fad2dfe-5b58-493f-ab93-1388b4e9ffdc)
 
-A preview of Athena’s interface that enables records query using SQL.
-<img width="424" alt="image" src="https://github.com/user-attachments/assets/bfef646f-a2a1-4579-8e1a-9694a8d078cf" />
+A preview of Athena’s interface that enables records query using SQL. <br>
+![image](https://github.com/user-attachments/assets/bfef646f-a2a1-4579-8e1a-9694a8d078cf)
 
-Setting up crawler’s properties for one of the identified zones.
-<img width="410" alt="image" src="https://github.com/user-attachments/assets/f349ad4b-d8c8-41c3-9299-072c0b8d961b" />
+Setting up crawler’s properties for one of the identified zones. <br>
+![image](https://github.com/user-attachments/assets/f349ad4b-d8c8-41c3-9299-072c0b8d961b)
 
 **Tools and Technologies:**
 1. AWS Simple Storage Service (S3): Used to store the ingested data.
