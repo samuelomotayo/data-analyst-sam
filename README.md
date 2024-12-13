@@ -341,6 +341,10 @@ The data wrangling process will involve various datasets, including:
 - Customer Service Records: Logs of customer inquiries, complaints, and resolutions.
 - Marketing Interaction Data: Email and campaign response data, including open and click-through rates.
 
+- Type of Data set: Structured data set
+- Type of Data source: S3 Bucket
+- Data Generator: File - .CSV and Excel Files from humans Model: Relational
+
 **DAP System Architecture** <br>
 ![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
 
