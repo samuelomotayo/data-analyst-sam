@@ -332,7 +332,7 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 
 **Objective:** The primary goal of this project is to perform comprehensive data enriching to prepare a robust dataset for the City Health Agency at the City of Vancouver. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of customer data for subsequent analysis and reporting. 
 
-**Background:** XYZ Company has accumulated customer data from multiple channels, including sales transactions, customer service interactions, and marketing campaigns. However, this data is often inconsistent, incomplete, or fragmented, making it challenging to derive meaningful insights. Effective data wrangling will facilitate better decision-making and more targeted marketing strategies.
+**Background:** The City of Vancouver Health Agency has accumulated data for a mechanized system for managing water data from multiple channels and locations, including types of prevailing water infections, operators permit numbers and personal information, among others. However, this data is often inconsistent, incomplete, or fragmented, making it challenging to derive meaningful insights. Effective data wrangling will facilitate better decision-making and more targeted marketing strategies.
 
 **Dataset:** 
 The data wrangling process will involve various datasets, including: 
@@ -346,11 +346,11 @@ The data wrangling process will involve various datasets, including:
 - Data Generator: File - .CSV and Excel Files from humans Model: Relational
 
 **METHODOLOGY:**
-1. Create a Table in the DynamoDB to ingest semi-structured data. Identify the primary key and the permission key.
-2. Still in DynamoDB, explore the (semi-data) item to view the data structure (columns) and content (rows), which will be stored in .JSON file format.
-3. Indicate which folder where the explored data would exported using the S3 folder link.
-4. Previous the exported or stored data from DynamoDB in S3. The DynamoDB would automatically create a different folder in the specified location.
-5. Create a data catalogue – this is the collection of all the tables and the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
+1. Data Ingestion: Create a Table in the DynamoDB to ingest semi-structured data. Identify the primary key and the permission key.
+2. Data Profiling: On DynamoDB, explore the (semi-data) item to view the data structure (columns) and content (rows), which will be stored in .JSON file format.
+3. Data Exploration: Indicate which folder where the explored data would exported using the S3 folder link.
+4. Data Export: Previous the exported or stored data from DynamoDB in S3. The DynamoDB would automatically create a different folder in the specified location.
+5. Data Catalogue: Create a data catalogue – this is the collection of all the tables and the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
 
 **DAP System Architecture** <br>
 ![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
