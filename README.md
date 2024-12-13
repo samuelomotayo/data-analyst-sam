@@ -346,11 +346,11 @@ The data wrangling process will involve various datasets, including:
 - Data Generator: File - .CSV and Excel Files from humans Model: Relational
 
 **METHODOLOGY:**
-<br> Task 1: Create a Table in the DynamoDB to ingest semi-structured data. Identify the primary key and the permission key. 
-<br> Task 2: Still in DynamoDB, explore the (semi-data) item to view the data structure (columns) and content (rows), which will be stored in .JSON file format. 
-<br> Task 3: Indicate which folder where the explored data would exported using the S3 folder link. 
-<br> Task 4: Previous the exported or stored data from DynamoDB in S3. The DynamoDB would automatically create a different folder in the specified location. 
-<br> Task 5: Create a Data catalogue – this is the collection of all the tables, the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
+1. Create a Table in the DynamoDB to ingest semi-structured data. Identify the primary key and the permission key.
+2. Still in DynamoDB, explore the (semi-data) item to view the data structure (columns) and content (rows), which will be stored in .JSON file format.
+3. Indicate which folder where the explored data would exported using the S3 folder link.
+4. Previous the exported or stored data from DynamoDB in S3. The DynamoDB would automatically create a different folder in the specified location.
+5. Create a data catalogue – this is the collection of all the tables and the existing and newly added documents. This can be done automatically in AWS using the Crawler functionality in AWS Glue.
 
 **DAP System Architecture** <br>
 ![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
