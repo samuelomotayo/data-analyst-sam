@@ -59,7 +59,7 @@ Started by creating the pipeline design using the following functions:
 **4. Highlights and Findings:**
 ![image](https://github.com/user-attachments/assets/bb1e3a2f-9876-461a-91f9-055be537998a)
 
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229" />
+![image](https://github.com/user-attachments/assets/a894ca83-f0ff-4496-beea-1fcebce81229)
 
 <br> 1. The cooling system is the dominant technology used for water system management in Downtown, representing 57% (276) of the total systems.
 <br> 2.	The Decorative water feature is the second most used system, accounting for 19% of the total count.
