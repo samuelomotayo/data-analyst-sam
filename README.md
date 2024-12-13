@@ -322,3 +322,25 @@ Data Quality Control and Governance empowers the City of Vancouver's Health Agen
 **Tools and Technologies**
 1. AWS CloudWatch: An AWS service that helps users track, monitor, manage and control AWS resources and applications.
 2. AWS CloudTrail: Used for auditing, security monitoring and operational troubleshooting by tracking users’ activities through logs and account activities.
+
+
+# [Project 6: Data Wrangling/Enriching]
+
+**Project Description:** Data Wrangling for Customer Analytics at XYZ Company Project Title: Data Wrangling for Enhanced Customer Analytics at XYZ Company 
+
+**Project Title:** Data Observability for the City of Vancouver Health Agency Data Analytics Platform
+
+**Objective:** The primary goal of this project is to perform comprehensive data wrangling to prepare a robust dataset for customer analytics at XYZ Company. By cleaning, transforming, and consolidating data from various sources, the project aims to enhance the accuracy and usability of customer data for subsequent analysis and reporting. 
+
+**Background:** XYZ Company has accumulated customer data from multiple channels, including sales transactions, customer service interactions, and marketing campaigns. However, this data is often inconsistent, incomplete, or fragmented, making it challenging to derive meaningful insights. Effective data wrangling will facilitate better decision-making and more targeted marketing strategies.
+
+**Dataset:** 
+The data wrangling process will involve various datasets, including: 
+- Sales Data: Transaction records that include customer IDs, purchase amounts, product details, and timestamps.
+- Customer Information: Demographic details such as age, gender, location, and account creation date.
+- Customer Service Records: Logs of customer inquiries, complaints, and resolutions.
+- Marketing Interaction Data: Email and campaign response data, including open and click-through rates.
+
+**DAP System Architecture** <br>
+![image](https://github.com/user-attachments/assets/5625f2c5-e4b1-4547-b932-f65c3c153a78)
+
