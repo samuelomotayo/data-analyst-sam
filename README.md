@@ -109,7 +109,7 @@ The City of Vancouver should do the following:
 <br>•	**Legionella:** A type of water infection
 
 **DAP System Architecture** <br>
-<img width="488" alt="image" src="https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1" />
+![image](https://github.com/user-attachments/assets/c64e6633-7d5d-447c-93f4-78dd255485d1)
 
 **METHODOLOGY:** 
 <br> **1. Data Collection, Ingestion and Preparation:**
@@ -119,7 +119,7 @@ The City of Vancouver should do the following:
 This includes understanding the following using AWS: 
     <br>•	Data structure: The number of columns, column names, column order and data type 
     <br>•	Content: The value distribution for the column, minimum, maximum, mean, average and others.
-<img width="790" alt="image" src="https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f" />
+![image](https://github.com/user-attachments/assets/57106cfb-0922-40d9-918a-153063c0e19f)
 
 **2. Explorative Statistics:**
 <br> Business Question: What are the common trends, similarities or differences in the distribution of the four (4) mechanized system types used for water management in Fairview and Westfield locations at the City of Vancouver?
